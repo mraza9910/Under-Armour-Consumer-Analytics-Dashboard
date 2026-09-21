@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Under Armour Consumer Analytics | Maida Raza</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222;
+            background: #f7f7f7;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: #111;
+            color: white;
+            padding: 80px 8%;
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 13px;
+            color: #d71920;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: clamp(42px, 6vw, 76px);
+            line-height: 1.05;
+            max-width: 900px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            font-size: 19px;
+            color: #ccc;
+            margin-top: 25px;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: auto;
+            padding: 70px 5%;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .overview {
+            max-width: 850px;
+            font-size: 17px;
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .metric {
+            background: white;
+            padding: 30px;
+            border-top: 4px solid #d71920;
+        }
+
+        .metric strong {
+            display: block;
+            font-size: 30px;
+        }
+
+        .dashboard-section {
+            background: white;
+        }
+
+        .dashboard-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 62.5%;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            box-shadow: 0 8px 30px rgba(0,0,0,.08);
+        }
+
+        .dashboard-wrapper iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .tools {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 25px;
+        }
+
+        .tool {
+            padding: 9px 15px;
+            background: #e9e9e9;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .notice {
+            margin-top: 40px;
+            background: #eee;
+            border-left: 4px solid #d71920;
+            padding: 22px;
+            max-width: 900px;
+        }
+
+        footer {
+            background: #111;
+            color: #aaa;
+            text-align: center;
+            padding: 30px;
+        }
+
+        @media (max-width: 700px) {
+            .metrics {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                padding: 60px 6%;
+            }
+
+            .container {
+                padding: 50px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+
+        <div class="eyebrow">Power BI • Consumer Analytics</div>
+
+        <h1>Under Armour Consumer Analytics</h1>
+
+        <p>
+            An interactive analysis of consumer demographics,
+            brand perception, purchase behavior, sports engagement
+            and go-to-market opportunities.
+        </p>
+
+    </div>
+</section>
+
+
+<section class="container">
+
+    <h2>Project Overview</h2>
+
+    <p class="overview">
+        This project uses consumer survey data to analyze brand
+        consideration, purchasing behavior, style preferences,
+        shopping patterns, sports engagement and potential
+        go-to-market opportunities for Under Armour.
+    </p>
+
+    <div class="metrics">
+
+        <div class="metric">
+            <strong>1,176</strong>
+            Survey Respondents
+        </div>
+
+        <div class="metric">
+            <strong>6</strong>
+            Analytical Dashboard Pages
+        </div>
+
+        <div class="metric">
+            <strong>Power BI</strong>
+            Interactive Analytics
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="dashboard-section">
+
+    <div class="container">
+
+        <h2>Interactive Dashboard</h2>
+
+        <p style="margin-bottom:25px;">
+            Explore the report below. Use the dashboard filters and
+            page navigation to interact with the analysis.
+        </p>
+
+        <div class="dashboard-wrapper">
+
+            <iframe
+                title="Under Armour Consumer Analytics"
+                src="https://app.powerbi.com/view?r=eyJrIjoiY2M0ZTZjZTUtYTFlYy00YjU3LWFhNDEtMjkyZDIzOGZhMDMxIiwidCI6ImZiYmY2YzYwLTAzNDQtNGMyOS05NDU5LTcyNTY4NTczOWIxOSIsImMiOjN9"
+                allowfullscreen="true">
+            </iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="container">
+
+    <h2>Tools & Methods</h2>
+
+    <p class="overview">
+        The analysis combines data preparation, data modeling,
+        DAX measures and interactive visualization to transform
+        respondent-level survey data into actionable consumer insights.
+    </p>
+
+    <div class="tools">
+        <span class="tool">Power BI</span>
+        <span class="tool">DAX</span>
+        <span class="tool">Data Modeling</span>
+        <span class="tool">Survey Analytics</span>
+        <span class="tool">Consumer Segmentation</span>
+        <span class="tool">Data Visualization</span>
+    </div>
+
+    <div class="notice">
+        <strong>Data Availability</strong><br><br>
+
+        The underlying respondent-level dataset used in this analysis
+        is confidential and cannot be publicly distributed. Accordingly,
+        the source data is not included in this repository.
+    </div>
+
+</section>
+
+
+<footer>
+    Under Armour Consumer Analytics • Maida Raza
+</footer>
+
+</body>
+</html>
